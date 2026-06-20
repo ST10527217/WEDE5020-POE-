@@ -1,0 +1,141 @@
+/* GENERAL PAGE STYLING */
+body {
+    background-color: #111111;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+h1 {
+    background-color: #000000;
+    color: #f5b301;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 3px solid #f5b301;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #1a1a1a;
+    padding: 15px;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+}
+nav ul li a.active{
+    background-color: #f5b301;
+}
+
+/* PSEUDO-CLASS :hover */
+nav ul li a:hover {
+    background-color: #f5b301;
+    color: black;
+    border-radius: 5px;
+}
+
+/* HEADINGS */
+h2, h3 {
+    color: #f5b301;
+    text-align: center;
+    margin-top: 30px;;
+}
+
+/* PARAGRAPHS */
+p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.8;
+    padding: 10px;
+}
+
+/* IMAGES */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    border: 3px solid #f5b301;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.7);
+}
+
+/* LISTS */
+ul {
+    width: 60%;
+    margin: auto;
+}
+
+ul li {
+    margin: 10px;
+}
+
+/* FORM */
+form {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+}
+
+/* INPUT FIELDS */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* PSEUDO-CLASS :focus */
+input:focus, textarea:focus {
+    outline: 2px solid #f5b301;
+}
+
+/* BUTTON */
+button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #f5b301;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* PSEUDO-CLASS :hover */
+button:hover {
+    background-color: white;
+}
+
+/* PSEUDO-CLASS :active */
+button:active {
+    transform: scale(0.95);
+}
